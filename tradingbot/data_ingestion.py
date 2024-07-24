@@ -39,4 +39,3 @@ if __name__=='__main__':
     results = vstore.similarity_search("can you tell me the low budget sound basshead.")
     for res in results:
             print(f"* {res.page_content} [{res.metadata}]")
-            
